@@ -1,0 +1,51 @@
+
+
+
+.header__title {
+    font-family: $avenir-black;
+
+    letter-spacing: .3em;
+    text-align: center;
+    margin: $s-size;
+
+}
+
+.header__content {
+
+
+//  border-bottom: 1px solid green;
+//  margin-bottom: $s-size;
+//  ::before {
+//      display: flex;
+//     content: "";
+//     order: 5;
+//     border-bottom: 1px solid green;
+//     justify-content: center;
+    
+
+
+// }
+
+// ::after {
+//     display: flex;
+//     content: "";
+//     border-bottom: 1px solid green;
+//     justify-content: center;
+    
+
+
+// }
+
+
+.border-bottom {
+    width: 100%;
+    margin-bottom: 10px;
+      border-bottom: 1px solid green;
+
+}
+
+ @media (min-width: $desktop-breakpoint) {
+   margin-bottom: $l-size;
+ }
+}
+

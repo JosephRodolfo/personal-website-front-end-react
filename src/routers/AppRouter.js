@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
 import HomePage from "../components/HomePage";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BlogPostPage from "../components/BlogPostPage";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 
 const AppRouter = () => {
 
@@ -9,12 +9,13 @@ const AppRouter = () => {
 
 
   return (
-    <BrowserRouter>
-        <Header/>
+    <HashRouter>
         <Routes>
-         <Route path="/" element={<HomePage />} />
+         <Route exact path="/" element={<HomePage />} />
+         <Route path="/post" element={<BlogPostPage />} />
+
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

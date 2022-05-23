@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import BlogPostPage from "./BlogPostPage";
 const Navigation = () => (
   <nav className="nav">
     <div className="content-container">

@@ -1,0 +1,24 @@
+.post-title__content {
+    border-bottom: 1px solid green;
+
+}
+.post-title__content h1 {
+    font-family: $avenir-black;
+    margin: $s-size;
+}
+
+.post-date-link {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.post-date-link *{
+    color: gray;
+    font-size: $m-size;
+    margin: 0;
+}
+
+br {
+    margin-bottom: $m-size;
+}
